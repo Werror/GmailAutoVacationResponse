@@ -1,5 +1,7 @@
 # GmailAutoVacationResponse
-Google App Script to set vacation response in Gmail setting using Calendar's specific event
+This is a Google App Script to set vacation response in Gmail setting using Calendar's specific event
+The setup will trigger this script to run once each day (preferred between 0:00 - 1:00 am) and go through your all day event and find "Vacation" (this is customizable) and set `startDate`, `endDate`, `subject`, `body` in the Gmail Vacation Setting. 
+![Image Gmail Vacation Setting](http://icdn3.digitaltrends.com/image/gmail_step2-1049x296.jpg)
 
 ## Prerequisite
 The following *Advanced Google Services* need to be enabled before running this script.
