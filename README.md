@@ -14,6 +14,6 @@ Please refer to https://developers.google.com/apps-script/guides/services/advanc
 1. Login to Google drive and create a new App Scriot
 2. Copy the [Code.gs](https://github.com/Werror/GmailAutoVacationResponse/blob/master/Code.gs) and paste into the new App Script
 3. On the calendar, book a chunk of all day event, (E.g. as "Vacation" or any thing you like, but make sure you change [here](https://github.com/Werror/GmailAutoVacationResponse/blob/master/Code.gs#L38))
-4. To test, you can hit run on the Google App Script console
+4. To test this standalone script, follow https://developers.google.com/apps-script/guides/standalone and choose `run` or `debug`.
 5. To schedule **time trigger** go to Resources -> Current project's trigger -> Add a new trigger -> Time driven -> Set to run once a day from 0:00 am - 1:00 am
 
