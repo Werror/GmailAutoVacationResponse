@@ -1,5 +1,11 @@
 function main() {
     var events = listAllDayEvents();
+    
+    if (events < 1)
+    {
+        return;
+    }
+    
     var dateTime = findHolidayDate(events);
     setNewVacationSettings(dateTime);
 }
